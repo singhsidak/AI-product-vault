@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+}
+
+.app-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+}
+
+.title {
+  text-align: center;
+  color: #2c3e50;
+}
+
+.card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.button-group {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: white;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.download-btn {
+  background-color: #27ae60;
+}
+
+.download-btn:hover {
+  background-color: #1e8449;
+}
+
+.live-annotation {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.log-box {
+  max-height: 250px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.log-item {
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.empty {
+  color: #888;
+}
